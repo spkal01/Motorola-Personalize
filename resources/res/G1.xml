@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/fragment_theme_0" android:background="@color/fragment_bg_color" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/toolbar_container" android:elevation="8dp" layout="@layout/feature_top_bar"/>
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@+id/guideline_2" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.2359"/>
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@+id/guideline_0" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.6205"/>
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@+id/guideline_1" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.7231"/>
+    <RelativeLayout android:id="@+id/preview" android:layout_width="0dp" android:layout_height="0dp" app:layout_constrainedHeight="true" app:layout_constraintBottom_toTopOf="@+id/guideline_0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/guideline_2" app:layout_constraintWidth_percent="0.8333">
+        <FrameLayout android:id="@+id/light_preview" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/theme_preview_background"/>
+            <ImageView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_theme_preview_light"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/dark_preview" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/theme_preview_background_dark"/>
+            <ImageView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_theme_preview_dark"/>
+        </FrameLayout>
+    </RelativeLayout>
+    <TextView android:textSize="12sp" android:textColor="@color/option_item_text" android:gravity="center" android:id="@+id/theme_desc" android:layout_width="0dp" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@+id/guideline_2" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/toolbar_container" app:layout_constraintWidth_percent="0.7" style="@style/Roboto"/>
+    <RelativeLayout android:id="@+id/option_list_container" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constrainedHeight="true" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toBottomOf="@+id/guideline_1">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/option_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@+id/fab" android:layout_width="55dp" android:layout_height="55dp" android:layout_marginBottom="23.5dp" android:layout_alignParentBottom="true" android:layout_marginEnd="30dp" android:layout_alignParentEnd="true" app:backgroundTint="@color/fab_bg_tint" app:fabCustomSize="55dp" app:srcCompat="@drawable/ic_fab_done"/>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

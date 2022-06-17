@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preload_themes">
+        <item>Moto</item>
+        <item>Морски път</item>
+        <item>Мед</item>
+        <item>Мерло</item>
+    </array>
+    <array name="preload_themes_prc">
+        <item>Moto</item>
+        <item>Морски път</item>
+        <item>Мед</item>
+        <item>Мерло</item>
+    </array>
+</resources>

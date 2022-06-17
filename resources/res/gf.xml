@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/shadowStyle">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@+id/background" android:layout_width="match_parent" android:layout_height="@dimen/view_64dp" android:scaleType="centerInside" android:layout_centerInParent="true" android:contentDescription="@null"/>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@+id/icon" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/view_64dp" android:scaleType="centerInside" android:tint="@android:color/white" android:layout_centerInParent="true" android:contentDescription="@null"/>
+    <TextView android:textSize="@dimen/sp_22" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/text" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/view_64dp" android:includeFontPadding="false" android:layout_centerInParent="true"/>
+</RelativeLayout>

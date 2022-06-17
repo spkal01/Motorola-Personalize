@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:theme="@style/ThemeOverlay.AppCompat.ActionBar" android:id="@+id/toolbar_layout" android:tag="layout-land/toolbar_family_section_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+    <androidx.appcompat.widget.Toolbar android:id="@+id/detail_feature_family_toolbar" android:layout_width="0dp" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <TextView android:id="@+id/toolbar_title" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="85dp" app:layout_constraintBottom_toBottomOf="@+id/detail_feature_family_toolbar" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/family_section_toolbar_title"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

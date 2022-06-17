@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preload_themes">
+        <item>Moto</item>
+        <item>මුහුදු මාර්ගය</item>
+        <item>මිහිරි බව</item>
+        <item>මෙර්ලොට්</item>
+    </array>
+    <array name="preload_themes_prc">
+        <item>Moto</item>
+        <item>මුහුදු මාර්ගය</item>
+        <item>මිහිරි බව</item>
+        <item>මෙර්ලොට්</item>
+    </array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="@dimen/preview_shape_icon_size_big">
+    <include android:id="@+id/shape_icon1" android:layout_width="@dimen/preview_shape_icon_size_big" android:layout_height="match_parent" android:layout_marginEnd="14dp" android:layout_alignParentStart="true" layout="@layout/preview_shape_icon"/>
+    <include android:id="@+id/shape_icon2" android:layout_width="@dimen/preview_shape_icon_size_big" android:layout_height="match_parent" android:layout_toEndOf="@+id/shape_icon1" android:layout_marginHorizontal="14dp" layout="@layout/preview_shape_icon"/>
+    <include android:id="@+id/shape_icon3" android:layout_width="@dimen/preview_shape_icon_size_big" android:layout_height="match_parent" android:layout_toEndOf="@+id/shape_icon2" android:layout_marginHorizontal="14dp" layout="@layout/preview_shape_icon"/>
+    <include android:id="@+id/shape_icon4" android:layout_width="@dimen/preview_shape_icon_size_big" android:layout_height="match_parent" android:layout_marginStart="14dp" android:layout_toEndOf="@+id/shape_icon3" layout="@layout/preview_shape_icon"/>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textSize="@dimen/text_editor_text_size" android:textColor="@color/text_go_to_lestore_dialog_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_24dp" android:text="@string/go_lestore_desc" android:layout_marginStart="@dimen/view_24dp" android:layout_marginEnd="@dimen/view_24dp"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/checkboxContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_32dp" android:layout_marginStart="@dimen/view_20dp">
+        <CheckBox android:id="@+id/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/go_lestore_no_next_time_tip"/>
+        <TextView android:textSize="@dimen/bottom_button_text_size" android:textColor="@color/text_go_to_lestore_dialog_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/go_lestore_no_next_time_tip" android:layout_marginStart="@dimen/view_20dp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preload_themes">
+        <item>Moto</item>
+        <item>海道</item>
+        <item>蜂蜜</item>
+        <item>梅洛葡萄</item>
+    </array>
+    <array name="preload_themes_prc">
+        <item>Moto</item>
+        <item>海道</item>
+        <item>蜂蜜</item>
+        <item>梅洛葡萄</item>
+    </array>
+</resources>

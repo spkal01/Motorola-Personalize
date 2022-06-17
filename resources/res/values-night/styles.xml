@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AppCompat.DayNight">
+    </style>
+    <style name="Theme.AppCompat.DayNight.DarkActionBar">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth">
+    </style>
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge">
+    </style>
+    <style name="Theme.AppCompat.DayNight.NoActionBar">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.BottomSheetDialog">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Bridge">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Dialog">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert.Bridge">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Bridge">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize.Bridge">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth.Bridge">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.DialogWhenLarge">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar">
+    </style>
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+    </style>
+    <style name="Theme.ThemesApp">
+        <item name="android:textColorPrimary">@color/system_neutral1_50</item>
+        <item name="android:windowBackground">@color/system_neutral1_900</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:alertDialogTheme">@android:style/Theme.DeviceDefault.Dialog.Alert</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/system_neutral1_800</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="?0x10104e0">false</item>
+        <item name="?0x101056c">false</item>
+        <item name="?0x1010605">true</item>
+        <item name="backgroundColor">@color/system_neutral1_900</item>
+        <item name="colorAccent">?attr/colorPrimary</item>
+        <item name="colorPrimary">@android:color/Pink_800</item>
+    </style>
+    <style name="ThemeOverlay.AppCompat.DayNight">
+    </style>
+    <style name="Widget.MaterialComponents.ActionBar.PrimarySurface">
+    </style>
+    <style name="Widget.MaterialComponents.AppBarLayout.PrimarySurface">
+    </style>
+    <style name="Widget.MaterialComponents.BottomAppBar.PrimarySurface">
+    </style>
+    <style name="Widget.MaterialComponents.BottomNavigationView.PrimarySurface">
+    </style>
+    <style name="Widget.MaterialComponents.NavigationRailView.PrimarySurface">
+    </style>
+    <style name="Widget.MaterialComponents.TabLayout.PrimarySurface">
+    </style>
+    <style name="Widget.MaterialComponents.Toolbar.PrimarySurface">
+    </style>
+</resources>

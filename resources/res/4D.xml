@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/item_maxWidth" android:layoutDirection="ltr">
+    <androidx.cardview.widget.CardView android:id="@+id/card_view" android:focusable="false" android:clickable="false" android:layout_width="@dimen/item_icon_size" android:layout_height="@dimen/item_icon_size" android:layout_marginBottom="@dimen/icon_margin_text_10" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_marginHorizontal="@dimen/half_feature_option_padding" app:cardBackgroundColor="@android:color/transparent" app:cardCornerRadius="12dp" app:cardElevation="0dp">
+        <ImageView android:layout_gravity="center" android:id="@+id/shape_icon" android:focusable="false" android:clickable="false" android:layout_width="26dp" android:layout_height="26dp"/>
+    </androidx.cardview.widget.CardView>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/card_view" android:layout_centerHorizontal="true">
+        <TextView android:ellipsize="end" android:gravity="center_horizontal" android:id="@+id/color_title" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="24dp" android:includeFontPadding="false" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/option_item_title"/>
+    </RelativeLayout>
+</RelativeLayout>

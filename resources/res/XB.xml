@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:color="@color/themes_button_press">
+    <item android:id="@android:id/mask">
+        <selector>
+            <item>
+                <layer-list>
+                    <item>
+                        <shape android:shape="rectangle">
+                            <solid android:color="@color/theme_setting_item_bg_tint"/>
+                            <corners android:radius="@dimen/sp_16"/>
+                        </shape>
+                    </item>
+                </layer-list>
+            </item>
+        </selector>
+    </item>
+    <item>
+        <selector>
+            <item android:state_selected="true">
+                <layer-list>
+                    <item>
+                        <shape android:shape="rectangle">
+                            <solid android:color="@color/theme_setting_item_bg_tint"/>
+                            <corners android:radius="@dimen/sp_16"/>
+                        </shape>
+                    </item>
+                </layer-list>
+            </item>
+            <item>
+                <layer-list>
+                    <item>
+                        <shape android:shape="rectangle">
+                            <solid android:color="@android:color/transparent"/>
+                            <corners android:radius="@dimen/view_16dp"/>
+                        </shape>
+                    </item>
+                </layer-list>
+            </item>
+        </selector>
+    </item>
+</ripple>

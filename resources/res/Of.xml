@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/view_6dp">
+    <com.google.android.material.card.MaterialCardView android:theme="@style/Theme.MaterialComponents.DayNight" android:id="@+id/card" android:layout_width="@dimen/view_98dp" android:layout_height="@dimen/view_98dp" app:cardCornerRadius="@dimen/view_10dp" app:cardElevation="@dimen/view_0dp" app:rippleColor="@color/themes_button_press">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/bg" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        <androidx.appcompat.widget.AppCompatImageView android:gravity="center" android:id="@+id/icon" android:background="@color/themes_option_wallpaper_icon_bg_color_selector" android:padding="@dimen/view_37dp" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/themes_ic_theme_option_check"/>
+    </com.google.android.material.card.MaterialCardView>
+</RelativeLayout>

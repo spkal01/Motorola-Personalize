@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:orientation="horizontal" android:background="@drawable/tutorial_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:textSize="12sp" android:textColor="#de000000" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/cd_grid_eye_preview" android:layout_weight="1" android:layout_marginStart="13dp" android:layout_marginVertical="4dp" style="@style/Roboto"/>
+    <ImageView android:id="@+id/close_grid_tip" android:layout_width="24dp" android:layout_height="24dp" android:foreground="?android:attr/selectableItemBackground" android:src="@drawable/ic_delete" android:rotation="45"/>
+</LinearLayout>

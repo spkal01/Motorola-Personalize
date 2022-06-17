@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="decorator_margin_horizontal">6.74dp</dimen>
+    <dimen name="font_preview_padding_horizontal">36.38dp</dimen>
+    <dimen name="font_preview_padding_vertical">47.15dp</dimen>
+    <dimen name="icon_margin_text_10">13.47dp</dimen>
+    <dimen name="item_icon_size">75.44dp</dimen>
+    <dimen name="main_decorator_margin_top">92.96dp</dimen>
+    <dimen name="second_decorator_margin_top">35.03dp</dimen>
+</resources>

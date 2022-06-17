@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/preview_color_view_gap" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:paddingHorizontal="24dp">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="62.5dp">
+            <ImageView android:id="@+id/seekbar_color_bg" android:background="@drawable/color_preview_seekbar_bg" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <ImageView android:id="@+id/seekbar_progress_bg" android:background="@drawable/color_preview_progress_bg" android:layout_width="match_parent" android:layout_height="4dp" android:layout_centerInParent="true" android:layout_marginHorizontal="24dp"/>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="8dp" android:layout_marginEnd="90dp" android:layout_marginVertical="8dp">
+                <ImageView android:id="@+id/seekbar_progress" android:background="@drawable/color_preview_progress" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_brightness" android:layout_centerVertical="true" android:paddingEnd="12dp" android:layout_alignParentEnd="true"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="62.5dp" android:layout_marginVertical="20dp">
+            <RelativeLayout android:id="@+id/panel_0" android:background="@drawable/color_preview_panel_bg" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:layout_marginEnd="5dp">
+                <ImageView android:id="@+id/blue_tooth_icon" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_bluetooth" android:layout_centerVertical="true" android:layout_marginStart="15dp"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="9dp" android:layout_toEndOf="@+id/blue_tooth_icon">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/color_preview_text_bluetooth" style="@style/color_preview_text_medium"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/color_preview_text_bluetooth_on" style="@style/color_preview_text"/>
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/panel_1" android:background="@drawable/color_preview_panel_bg" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:layout_marginStart="5dp">
+                <ImageView android:id="@+id/ring_icon" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_notifications" android:layout_centerVertical="true" android:layout_marginStart="15dp"/>
+                <RelativeLayout android:layout_width="57dp" android:layout_height="28dp" android:layout_centerVertical="true" android:layout_marginStart="17dp" android:layout_toEndOf="@+id/ring_icon">
+                    <ImageView android:id="@+id/toggle_bg" android:background="@drawable/color_preview_panel_bg" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                    <ImageView android:id="@+id/toggle_btn" android:background="@drawable/color_preview_toggle_thumb" android:layout_width="20dp" android:layout_height="20dp" android:layout_margin="4dp" android:layout_alignParentEnd="true"/>
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <androidx.cardview.widget.CardView android:id="@+id/dialog_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="2dp" app:cardBackgroundColor="#ffffff" app:cardCornerRadius="12dp">
+            <RelativeLayout android:gravity="center_vertical" android:paddingTop="24dp" android:paddingBottom="25dp" android:layout_width="match_parent" android:layout_height="116dp" android:paddingHorizontal="16dp">
+                <FrameLayout android:id="@+id/color_icon" android:layout_width="40dp" android:layout_height="40dp" android:layout_alignParentTop="true" android:layout_alignParentStart="true" style="@style/shadowStyle">
+                    <ImageView android:id="@+id/color_bg3" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerInside"/>
+                    <ImageView android:layout_gravity="center" android:id="@+id/preview_setting_icon" android:layout_width="18dp" android:layout_height="14dp" android:src="@drawable/ic_setting_done" android:scaleType="centerInside" android:color="@color/setting_icon_enabled_color"/>
+                </FrameLayout>
+                <TextView android:textSize="14sp" android:textColor="@color/dialog_text" android:ellipsize="none" android:gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/color_preview_text" android:maxLines="2" android:layout_alignParentTop="true" android:layout_marginStart="12dp" android:layout_toEndOf="@+id/color_icon" style="@style/Roboto"/>
+                <TextView android:textSize="14sp" android:id="@+id/btn_ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28dp" android:text="@android:string/ok" android:layout_alignParentBottom="true" android:textAllCaps="false" android:layout_marginEnd="16dp" android:layout_alignParentEnd="true" style="@style/RobotoMedium"/>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</RelativeLayout>

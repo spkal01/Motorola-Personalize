@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/preview_font_bg_color" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingVertical="@dimen/font_preview_padding_vertical">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/font_preview_padding_horizontal">
+        <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textSize="28sp" android:textColor="@color/preview_font_header_color" android:ellipsize="end" android:id="@+id/tv_headline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/preview_font_big_text" android:lines="3"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textSize="20sp" android:textColor="@color/preview_font_body_color" android:ellipsize="end" android:id="@+id/tv_body" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="@string/preview_font_small_text" android:lines="5"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="colors_order">
+        <item>Default</item>
+        <item>com.android.theme.color.slate</item>
+        <item>com.android.theme.color.saffron</item>
+        <item>com.android.theme.color.parasailing</item>
+        <item>com.android.theme.color.darklake</item>
+        <item>com.android.theme.color.magentahaze</item>
+        <item>com.android.theme.color.cherry</item>
+        <item>com.android.theme.color.brown</item>
+        <item>com.android.theme.color.lgreen</item>
+        <item>com.android.theme.color.dpurple</item>
+        <item>com.android.theme.color.dorange</item>
+    </array>
+    <array name="dynamic_icon_calendar_component_list">
+        <item>com.google.android.calendar/com.android.calendar.AllInOneActivity</item>
+        <item>com.zui.calendar/com.zui.calendar.AllInOneActivity</item>
+    </array>
+    <array name="dynamic_icon_clock_component_list">
+        <item>com.google.android.deskclock/com.android.deskclock.DeskClock</item>
+        <item>com.zui.deskclock/com.zui.deskclock.DeskClock</item>
+    </array>
+    <array name="excluded_color_overlay_packages">
+        <item>com.android.theme.color.black</item>
+        <item>com.android.theme.color.space</item>
+        <item>com.android.theme.color.cinnamon</item>
+        <item>com.android.theme.color.orchid</item>
+        <item>com.android.theme.color.purple</item>
+        <item>com.android.theme.color.green</item>
+        <item>com.android.theme.color.ocean</item>
+    </array>
+    <array name="excluded_font_overlay_packages">
+        <item>com.android.theme.font.customizesource</item>
+    </array>
+    <array name="excluded_shape_overlay_packages">
+        <item>com.android.theme.icon.square</item>
+    </array>
+    <array name="fonts_order_prc">
+        <item>Default</item>
+        <item>com.android.theme.font.pangyaersource</item>
+        <item>com.android.theme.font.notoserifsource</item>
+        <item>com.android.theme.font.hanyiqiheisource</item>
+        <item>com.android.theme.font.zhongsongsource</item>
+    </array>
+    <array name="fonts_order_row">
+        <item>Default</item>
+        <item>com.android.theme.font.notoserifsource</item>
+        <item>com.android.theme.font.RobotoSlabRegular</item>
+        <item>com.android.theme.font.Exo2Regular</item>
+        <item>com.android.theme.font.ArchivoSemiBold</item>
+    </array>
+    <array name="grids_order">
+        <item>6_by_5</item>
+        <item>5_by_5</item>
+        <item>6_by_4</item>
+        <item>5_by_4</item>
+        <item>4_by_4</item>
+        <item>4_by_3</item>
+    </array>
+    <array name="hotseat_icons">
+        <item>@drawable/icon_preview_08</item>
+        <item>@drawable/icon_preview_07</item>
+        <item>@drawable/icon_preview_09</item>
+        <item>@drawable/icon_preview_02</item>
+        <item>@drawable/icon_preview_01</item>
+    </array>
+    <array name="icon_pack_actions">
+        <item>com.motorola.launcher.ACTION_ICON_PACK</item>
+    </array>
+    <array name="icon_shape_preview_packages">
+        <item>com.android.vending</item>
+        <item>com.google.android.apps.photos</item>
+        <item>com.google.android.googlequicksearchbox</item>
+        <item>com.google.android.dialer,com.android.dialer</item>
+        <item>com.motorola.moto</item>
+        <item>com.motorola.camera2,com.motorola.camera3</item>
+        <item>com.android.settings</item>
+        <item>com.google.android.apps.messaging,com.android.messaging</item>
+        <item>com.google.android.contacts,com.android.contacts</item>
+        <item>com.google.android.calendar,com.motorola.cn.calendar</item>
+        <item>com.android.chrome</item>
+    </array>
+    <array name="preload_colors">
+        <item>#165C7D,#654E78,#00658D,#C3E7FF</item>
+        <item>#654E78,#874C60,#764B9B,#F2DAFF</item>
+        <item>#FF8A31,#B7EDDF,#984700,#FFDBC5</item>
+        <item>#B7EDDF,#165C7D,#006B5B,#77F8DE</item>
+        <item>#874C60,#FF8A31,#984062,#FFD9E4</item>
+    </array>
+    <array name="preload_themes">
+        <item>Moto</item>
+        <item>Seaway</item>
+        <item>Honey</item>
+        <item>Merlot</item>
+    </array>
+    <array name="preload_themes_config">
+        <item>com.motorola.launcherconfig/personalize_wallpaper_01_dark, Default, preloaded_#165C7D_#654E78_#00658D_#C3E7FF, Default, 5_by_4, Moto</item>
+        <item>com.motorola.launcherconfig/personalize_wallpaper_03_dark, com.android.theme.font.ArchivoSemiBold, preloaded_#B7EDDF_#165C7D_#006B5B_#77F8DE, com.android.theme.icon.round, 5_by_5, Hello</item>
+        <item>com.motorola.launcherconfig/personalize_wallpaper_04, com.android.theme.font.RobotoSlabRegular, preloaded_#FF8A31_#B7EDDF_#984700_#FFDBC5, com.android.theme.icon.teardrop, 5_by_4, Natural</item>
+        <item>com.motorola.launcherconfig/personalize_wallpaper_02, com.android.theme.font.Exo2Regular, preloaded_#874C60_#FF8A31_#984062_#FFD9E4, com.android.theme.icon.roundedrect, 6_by_4, Ether%20Shake</item>
+    </array>
+    <array name="preload_themes_config_prc">
+        <item>com.motorola.launcherconfig/personalize_wallpaper_01_dark, Default, preloaded_#165C7D_#654E78_#00658D_#C3E7FF, Default, 5_by_4, Moto</item>
+        <item>com.motorola.launcherconfig/personalize_wallpaper_03_dark, com.android.theme.font.barlowsource, preloaded_#B7EDDF_#165C7D_#006B5B_#77F8DE, com.android.theme.icon.round, 5_by_5, Hello</item>
+        <item>com.motorola.launcherconfig/personalize_wallpaper_04, com.android.theme.font.notoserifsource, preloaded_#FF8A31_#B7EDDF_#984700_#FFDBC5, com.android.theme.icon.teardrop, 5_by_4, Natural</item>
+        <item>com.motorola.launcherconfig/personalize_wallpaper_02, com.android.theme.font.quicksandsource, preloaded_#874C60_#FF8A31_#984062_#FFD9E4, com.android.theme.icon.roundedrect, 6_by_4, Ether%20Shake</item>
+    </array>
+    <array name="preload_themes_prc">
+        <item>Moto</item>
+        <item>Seaway</item>
+        <item>Honey</item>
+        <item>Merlot</item>
+    </array>
+    <array name="shape_icons">
+        <item>@drawable/icon_preview_08</item>
+        <item>@drawable/icon_preview_07</item>
+        <item>@drawable/icon_preview_09</item>
+        <item>@drawable/icon_preview_01</item>
+    </array>
+    <array name="shapes_order">
+        <item>Default</item>
+        <item>com.android.theme.icon.round</item>
+        <item>com.android.theme.icon.teardrop</item>
+        <item>com.android.theme.icon.squircle</item>
+        <item>com.android.theme.icon.roundedrect</item>
+        <item>com.android.theme.icon.pebble</item>
+        <item>com.android.theme.icon.vessel</item>
+        <item>com.android.theme.icon.taperedrect</item>
+    </array>
+    <array name="workspace_icons">
+        <item>@drawable/icon_preview_06</item>
+        <item>@drawable/icon_preview_04</item>
+        <item>@drawable/icon_preview_03</item>
+        <item>@drawable/icon_preview_05</item>
+        <item>@drawable/icon_preview_10</item>
+    </array>
+</resources>

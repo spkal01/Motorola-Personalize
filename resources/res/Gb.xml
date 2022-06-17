@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/view_24dp">
+    <TextView android:textSize="@dimen/view_20dp" android:id="@+id/message" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/themes_theme_name_prompt_msg" android:paddingVertical="@dimen/view_11dp"/>
+    <EditText android:textSize="@dimen/view_20dp" android:id="@+id/name" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/themes_theme_name_hint"/>
+</LinearLayout>

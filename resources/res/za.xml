@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:theme="@style/Theme.MaterialComponents.DayNight" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginVertical="@dimen/view_5dp" app:cardBackgroundColor="@color/themes_theme_card_bg" app:cardCornerRadius="@dimen/view_25dp" app:rippleColor="@color/themes_button_press" app:strokeWidth="@dimen/view_2dp">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/preview" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_25dp" android:layout_marginBottom="@dimen/view_13dp" android:paddingHorizontal="@dimen/view_20dp">
+            <RelativeLayout android:gravity="center" android:id="@+id/wallpaper_icon_wrapper" android:padding="@dimen/view_4dp" android:layout_width="@dimen/view_0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <com.google.android.material.imageview.ShapeableImageView android:id="@+id/wallpaper_icon" android:layout_width="@dimen/view_64dp" android:layout_height="@dimen/view_64dp" android:scaleType="centerCrop" app:shapeAppearanceOverlay="@style/wallpaperIconSmall"/>
+            </RelativeLayout>
+            <include android:id="@+id/shape_icon_wrapper" android:padding="@dimen/view_4dp" android:layout_width="@dimen/view_0dp" android:layout_height="wrap_content" android:layout_weight="1" layout="@layout/themes_preview_wrapped_icon_64"/>
+            <include android:id="@+id/ringtone_icon_wrapper" android:padding="@dimen/view_4dp" android:layout_width="@dimen/view_0dp" android:layout_height="wrap_content" android:layout_weight="1" layout="@layout/themes_preview_wrapped_icon_64"/>
+            <include android:id="@+id/font_icon_wrapper" android:padding="@dimen/view_4dp" android:layout_width="@dimen/view_0dp" android:layout_height="wrap_content" android:layout_weight="1" layout="@layout/themes_preview_wrapped_icon_64"/>
+        </LinearLayout>
+        <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/view_18dp" android:layout_marginHorizontal="@dimen/view_16dp" layout="@layout/themes_theme_card_bottom_bar"/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

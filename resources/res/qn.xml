@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <FrameLayout android:id="@+id/palette_result" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="30dp" android:layout_marginBottom="27dp">
+        <ImageView android:id="@+id/palette_result_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerInside"/>
+        <TextView android:textColor="@color/color_string_color" android:layout_gravity="center" android:id="@+id/palette_result_text" android:background="@drawable/hue_text_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="12dp" android:paddingVertical="2dp"/>
+    </FrameLayout>
+    <com.motorola.personalize.view.PaletteView android:id="@+id/palette_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_below="@+id/palette_result"/>
+    <FrameLayout android:id="@+id/button_layout" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="2dp" android:layout_marginBottom="3dp" android:layout_below="@+id/palette_view" android:layout_alignParentBottom="true">
+        <TextView android:textSize="14sp" android:textColor="@color/cancel_button_text" android:ellipsize="end" android:gravity="center" android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/cancel" android:maxLines="2" style="@style/RobotoMedium"/>
+        <Button android:textSize="14sp" android:textColor="@color/add_color_button_text" android:gravity="center" android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/add_color" android:background="@drawable/ripple_bg_back" android:layout_width="wrap_content" android:layout_height="48dp" android:text="@string/button_text_add_color" android:textAllCaps="false" android:paddingHorizontal="8dp" style="@style/RobotoMedium"/>
+    </FrameLayout>
+</merge>
